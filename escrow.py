@@ -38,8 +38,8 @@ class Escrow(sp.Contract):
 @sp.add_test(name = "Test Escrow")
 def testEscrow():
     scenario = sp.test_scenario()
-    seller = "tz2AAA"
-    buyer = "tz2BBB"
+    seller = "Will"
+    buyer = "Paula"
     myContract = Escrow()
     #set the seller and price
     scenario += myContract
